@@ -9,7 +9,7 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
   template: `
     <nav class="navbar">
       <div class="nav-content">
-        <a routerLink="/" class="nav-brand">MovieDB</a>
+        <a routerLink="/" class="nav-brand">CineHeaven</a>
         <app-search-bar></app-search-bar>
         <div class="nav-links">
           <a routerLink="/popular" routerLinkActive="active">Popular</a>
